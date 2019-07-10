@@ -1,6 +1,10 @@
+--create Query 
+
 CREATE DATABASE Music DEFAULT CHARACTER SET utf8;
 
 USE Music;  (Command line only)
+
+-- create elements
 
 CREATE TABLE Artist (
   artist_id INTEGER NOT NULL AUTO_INCREMENT,
@@ -44,6 +48,8 @@ CREATE TABLE Track (
   CONSTRAINT FOREIGN KEY (genre_id) REFERENCES Genre (genre_id)
     ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE = InnoDB;
+
+--insert elements
 
 INSERT INTO Artist (name) VALUES ('Led Zepplin');
 INSERT INTO Artist (name) VALUES ('AC/DC');
@@ -102,6 +108,8 @@ INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('The End of the Line', 5, 207, 0, 3, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('Broken, Beat & Scarred', 5, 207, 0, 3, 2);   
+
+-- manipulate elements
 
 SELECT Album.title, Artist.name FROM Album JOIN Artist ON
     Album.artist_id = Artist.artist_id
