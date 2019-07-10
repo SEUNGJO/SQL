@@ -55,3 +55,8 @@ INSERT INTO Genre (name) VALUES ('Metal');
 
 INSERT INTO Album (title, artist_id) VALUES ('Who Made Who', 2);
 INSERT INTO Album (title, artist_id) VALUES ('IV', 1);
+INSERT INTO Album (title, artist_id) VALUES ('HARDWIRED...TO SELF-DESTRUCT', 3);
+INSERT INTO Album (title, artist_id) VALUES ('METALLICA THROUGH THE NEVER', 3);
+INSERT INTO Album (title, artist_id) VALUES ('DEATH MAGNETIC', 3);
+
+
