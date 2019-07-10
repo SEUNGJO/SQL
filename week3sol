@@ -47,7 +47,7 @@ CREATE TABLE Track (
 
 INSERT INTO Artist (name) VALUES ('Led Zepplin');
 INSERT INTO Artist (name) VALUES ('AC/DC');
-INSERT INTO Artist (name) VALUES ('Metalica');
+INSERT INTO Artist (name) VALUES ('Metallica');
 
 INSERT INTO Genre (name) VALUES ('Rock');
 INSERT INTO Genre (name) VALUES ('Metal');
@@ -67,34 +67,35 @@ INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('About to Rock', 5, 313, 0, 1, 2);
     
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('That Was Just Your Life ', 5, 207, 0, 5 2);
+    VALUES ('That Was Just Your Life ', 5, 207, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('The End of the Line', 5, 207, 0, 5 2);
+    VALUES ('The End of the Line', 5, 207, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Broken, Beat & Scarred, 5, 207, 0, 5 2);
+    VALUES ('Broken, Beat & Scarred, 5, 207, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('The Day That Never Comes', 5, 207, 0, 5 2);
+    VALUES ('The Day That Never Comes', 5, 207, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('All Nightmare Long', 5, 207, 0, 5 2);
+    VALUES ('All Nightmare Long', 5, 207, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Cyanide', 5, 207, 0, 5 2);
+    VALUES ('Cyanide', 5, 207, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('The Unforgiven III', 5, 207, 0, 5 2);    
+    VALUES ('The Unforgiven III', 5, 207, 0, 5, 2);    
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('The Judas Kiss', 5, 297, 0, 5 1);
+    VALUES ('The Judas Kiss', 5, 297, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Suicide & Redemption', 5, 482, 0, 5 1);
+    VALUES ('Suicide & Redemption', 5, 482, 0, 5, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('My Apocalypse', 5, 313, 0, 5 2);
+    VALUES ('My Apocalypse', 5, 313, 0, 5, 2);
     
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+    VALUES ('The Ecstasy Of Gold (Live)', 5, 207, 0, 4, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+    VALUES ('Creeping Death (Live)', 5, 207, 0, 4, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+    VALUES ('For Whom the Bell Tolls (Live)', 5, 207, 0, 4, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+    VALUES ('Fuel (Live) ', 5, 207, 0, 4, 2);
+    
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('Who Made Who', 5, 207, 0, 1, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
