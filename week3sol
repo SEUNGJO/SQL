@@ -97,8 +97,25 @@ INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('Fuel (Live) ', 5, 207, 0, 4, 2);
     
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+    VALUES ('That Was Just Your Life', 5, 207, 0, 3, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+    VALUES ('The End of the Line', 5, 207, 0, 3, 2);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
-    VALUES ('Who Made Who', 5, 207, 0, 1, 2);   
+    VALUES ('Broken, Beat & Scarred', 5, 207, 0, 3, 2);   
+
+SELECT Album.title, Artist.name FROM Album JOIN Artist ON
+    Album.artist_id = Artist.artist_id
+
+SELECT Album.title, Album.artist_id, Artist.artist_id, Artist.name 
+    FROM Album JOIN Artist ON Album.artist_id = Artist.artist_id
+
+SELECT Track.title, Track.genre_id, Genre.genre_id, Genre.name 
+    FROM Track JOIN Genre
+
+SELECT Track.title, Genre.name FROM Track JOIN Genre ON 
+    Track.genre_id = Genre.genre_id;
+
+SELECT Track.title, Artist.name, Album.title, Genre.name 
+    FROM Track JOIN Genre JOIN Album JOIN Artist 
+    ON Track.genre_id = Genre.genre_id AND Track.album_id = 
+    Album.album_id AND Album.artist_id = Artist.artist_id
