@@ -65,6 +65,39 @@ INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('Stairway', 5, 482, 0, 2, 1);
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('About to Rock', 5, 313, 0, 1, 2);
+    
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('That Was Just Your Life ', 5, 207, 0, 5 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('The End of the Line', 5, 207, 0, 5 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Broken, Beat & Scarred, 5, 207, 0, 5 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('The Day That Never Comes', 5, 207, 0, 5 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('All Nightmare Long', 5, 207, 0, 5 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Cyanide', 5, 207, 0, 5 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('The Unforgiven III', 5, 207, 0, 5 2);    
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('The Judas Kiss', 5, 297, 0, 5 1);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Suicide & Redemption', 5, 482, 0, 5 1);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('My Apocalypse', 5, 313, 0, 5 2);
+    
 INSERT INTO Track (title, rating, len, count, album_id, genre_id)
     VALUES ('Who Made Who', 5, 207, 0, 1, 2);
-
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+INSERT INTO Track (title, rating, len, count, album_id, genre_id)
+    VALUES ('Who Made Who', 5, 207, 0, 1, 2);   
